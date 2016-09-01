@@ -52,3 +52,18 @@ make project
 
 This will run a makefile that should make anything that you need
 
+#### make setup
+
+in the git dir, run:
+
+make setup
+
+will install any packages and anything else that can be installed before the reboot needed to set up kernal things
+
+#### make post-setup
+
+in the git dir, run:
+
+make post-setup
+
+will do any installations for the project after a reboot, usually a part 2.
