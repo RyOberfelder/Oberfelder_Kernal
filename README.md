@@ -39,6 +39,11 @@ pacman -S git
 
 pacman is your package manager and this will be the process for installing alot of your core functionality.
 
+Lastly set your email in git using:
+
+git config --local user.email "yourEmailHere"
+git config --local user.name "your name here"
+
 ### Post Git Setup
 
 With any luck this should be very simple. clone down the git repo. Then navigate to the project and type:
